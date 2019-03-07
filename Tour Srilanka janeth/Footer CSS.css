@@ -1,0 +1,18 @@
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #353434;
+	color: white;
+	text-align: center;
+}
+
+#footerEdit {
+	font-size:12px;
+	
+}
+
+#footerimg{
+align-items:center;	
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="Index CSS.css">
+      <!-- Link Home page CSS  -->
+      <link rel="stylesheet" type="text/css" href="Navigation CSS.css">
+      <!-- Link navigationBar CSS  -->
+	  <link rel="stylesheet" type="text/css" href="Footer CSS.css">
+	  
+      <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	  
+      <script type="text/javascript" src="Navigation JS.js"></script><!-- Link NavigationBar Java Script  -->
+      <script type="text/javascript" src="index.js"></script><!-- Link Home page Java Script  -->
+      <link rel="icon" href="toursl.png">
+      <!-- Favicon -->
+	  
+      <title> Tour Srilanka</title>
+   </head>
+   <!-- Navigation Bar  -->	
+   <div>
+      <a href="index.html"><img id="sl" src="toursl.png"></a>
+      <div id="navigation">
+         <ul class = "ul">
+            <li class = "li"><a class="active" href="index.html">Home</a></li>
+            <li class = "li"><a href="gallery.html">Gallery</a></li>
+            <li class = "li"><a href="quiz.html">Quiz</a></li>
+            <li class = "li"><a href="products.html">Products</a></li>
+            <li class = "li"><a href="aboutus.html">About Us</a></li>
+            <li class = "li"><a href="comment.html">Feedback</a></li>
+            <li class = "li"><a href="sitemap.html">Sitemap</a></li>
+         </ul>
+      </div>
+   </div>
+   <!-- Main Video -->
+   <div class="myVideo">
+      <video style="margin-top:-52px;" autoplay loop muted>
+         <source src="web.mp4" type="video/mp4">
+      </video>
+      <div class="welcome">Welcome To Tour Srilanka
+      </div>
+   </div>
+   <!-- Section one of the main page, Seaside tour  -->
+   <section>
+      <div class= "imgback1" align="right">
+         <table >
+            <tr>
+               <td>   </td>
+               <td>   </td>
+               <td id="txtset1">
+                  <p>Have your holiday in some of the finest beaches in Sri lanka. 
+                     Outdoor enthusiasts can snorkel,scuba dive,body-surf, or hike the trails 
+                     in nearby "Beach".
+                  </p>
+                  <button class="buttonMain">Explore</button>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </section>
+   <!-- Section two of the main page, Quotes  -->
+   <section>
+      <div class="imgback2">
+         <div class="grid">
+            <div class="box1">
+               <div id="brownspace">
+                  <!-- Add the default quote  -->
+                  <p><br>" Rail travel for me is the most relaxing, most scenic way to see the country."<br><br>-John Paul DeJoria</p>
+               </div>
+            </div>
+            <div class="box2">
+               <img id="foot" src="steps.png" alt="Foot" height="300px" width="300px" align="center">
+            </div>
+            <!--Add the Java Script of the quotes  -->
+            <div class="box3">
+               <div class= "quotes">
+                  <img  class="social" onclick="functionOne()" title="John Paul DeJoria" id="jp" src="jp.jpg" alt="John Paul" height="90px" width="90px" > 
+                  <img   class="social" onclick="functionTwo()" title="Jamie Lyn Beatty" id="jl" src="jl.png" alt="Jaime Lyn" height="60px" width="60px" > 
+                  <img   class="social"  onclick="functionThree()" title="Amit Kalantri" id="ak" src="ak.jpg" alt="Amit Kalantri" height="60px" width="60px"  > 
+                  <img   class="social" onclick="functionFour()" title="Virginia Alison" id="va" src="va.jpg" alt="Virginia Alison" height="60px" width="60px" >  
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Section Three of the main page, Upcountry tour  -->
+   <section>
+      <div class= "imgback3">
+         <div class="grid-containerimg">
+            <div class="grid-itemimg1">
+               <p ><font color="white">Enjoy your holiday with your loved ones in the mid of cold weather in upcountry. 
+                  Hike through the mountains, have a bath in waterfalls and drink hot coffee and relax yourself.</font>
+               </p>
+               <button class="buttonMain" class="booknow">Plan Your Adventure</button>
+            </div>
+            <!-- Add four photos as a grid  -->
+            <div class="grid-containerimgpics">
+               <div class="grid-itemimgleft"> <img src="train.jpg" alt="Train" width="220" height="220"></div>
+               <div class="grid-itemimgright"> <img src="hill.jpg" alt="Hill"width="220" height="220" ></div>
+               <div class="grid-itemimgleft"> <img src="tea.jpg" alt="Tea leaves" width="220" height="220"></div>
+               <div class="grid-itemimgright"> <img src="water.jpg" alt="Waterfall" width="220" height="220"></div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Section four of the main page, Wildlife tour -->
+   <section>
+      <!-- Divide the section in to two grid  -->
+      <div class="grid-containerfinalimg">
+         <div class="grid-itemimgfinal">
+            <!-- Add a photo to the grid  -->
+            <img src="cat.jpeg" alt="leopard" height="100%" width="100%" >
+         </div>
+         <!--Add the elemets to the other side of the grid  -->
+         <div class="grid-itemimgfinal">
+            <div class="imgback5" >
+               <div class="grid-containerfinalinternal">
+                  <div class="grid-itemimgfinal">
+                     <p id="txt1">Vist Sri Lankan National parks like Yala, Wilpaththu, Minneriya, Bundala etc.
+                        Capture the wild animals in your Camera lense.<br>
+                     </p>
+                     <button class="buttonMain" class="booknow">Book Now</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Footer  -->
+   <div class="footer">
+      <p id="footerEdit"> © Powered By Tour Srilanka 2018  &nbsp; Edited By <a href="CV Janeth">Janeth Fernando</a> 
+      <div id="footerimg"> <img src="toursl.png" alt="Logo" height="20px" width="50px" >
+         </p>
+      </div>
+   </div>
+   </body>
+</html>

@@ -1,0 +1,262 @@
+button:hover {
+	/* Button hover  */
+	background-color: #3B9F4F;
+}
+
+.myVideo {
+	/* Main video */
+	position: relative;
+	min-width: 100%;
+	min-height: auto;
+	background-size: cover;
+	z-index: -1;
+}
+
+.welcome {
+	/* Welcome note */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex: auto;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 90px;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.imgback1 {
+	/* Beach side tour */
+	width: auto;
+	height: 500px;
+	background: url("beach.jpg");
+	opacity: 0.9;
+	margin-right: auto;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -7px;
+}
+
+body,
+td,
+th {
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+#txtset1 {
+	text-align: justify;
+	width: 600px;
+	LINE-HEIGHT: 70px;
+	padding-right: 50px;
+	color: black;
+}
+
+.buttonMain {
+	background-color: #E65A5A;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+}
+
+.imgback2 {
+	/* Quotes section*/
+	position: relative;
+	z-index: -1;
+	width: 100%;
+	height: 500px;
+	background: #FDEDFD;
+	opacity: 0.9;
+}
+
+.imgback3 {
+	/* Up country*/
+	width: auto;
+	height: 500px;
+	background: url("blackground.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+
+.quotes {
+	/*Quotes section*/
+	position: relative;
+	left: 30px;
+	top: 50px;
+	line-height: 70px;
+}
+
+#book {
+	/*Booking ID Wild life*/
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+#jp {
+	/* Quotes 1st img*/
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#jl {
+	/* Quotes 2st img*/
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#ak {
+	/* Quotes 3st img*/
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#va {
+	/* Quotes 4st img*/
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#foot {
+	/* Quotes Foot img*/
+	position: absolute;
+	left: 990px;
+	margin-top: 50px;
+}
+
+#brownspace {
+	/* Empty space*/
+	line-height: 1.6;
+}
+
+.grid {
+	/* Grid View of Quotes*/
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	grid-gap: 5px 5px;
+}
+
+.box1 {
+	/*Quotes element one grid view*/
+	grid-column: 1/2;
+	grid-row: 1/2;
+	text-align: center;
+}
+
+.box2 {
+	/*Quotes element two grid view*/
+	grid-column: 2/3;
+	grid-row: 1/3;
+}
+
+.box3 {
+	/*Quotes element three grid view*/
+	grid-column: 1/2;
+	grid-row: 2/3;
+	text-align: center;
+}
+
+.social {
+	/*Zoom effect to quotes authors*/
+	transition: transform .2s;
+	margin-left: 30px;
+}
+
+.social:hover {
+	/*Hoover effect to quotes authors*/
+	-ms-transform: scale(1.5); 
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.grid-containerimg {
+	/*Wild life main grid*/
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	grid-gap: 2px 2px;
+}
+
+.grid-containerimgpics {
+	/*Wild life sub grid*/
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
+.grid-itemimg1 {
+	/*Wild life items set 1*/
+	text-align: justify;
+	LINE-HEIGHT: 70px;
+	padding-left: 50px;
+	grid-gap: 0px;
+}
+
+.grid-itemimgleft {
+	text-align: right;
+}
+
+.grid-itemimgright {
+	text-align: left;
+}
+
+.grid-containerfinalimg {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: auto auto;
+}
+
+.grid-itemimgfinal {
+	text-align: right;
+}
+
+.grid-containerfinalinternal {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: auto;
+	padding: 10px;
+}
+
+.imgback5 {
+	/*Wild life sky photo*/
+	width: 100%;
+	height: 100%;
+	background: url("sky.jpg");
+}
+
+#booknow {
+	/*Wild Life book Button*/
+	align-items: right;
+}
+
+#txt1 {
+	text-align: Left;
+	width: 600px;
+	LINE-HEIGHT: 70px;
+	padding-right: 50px;
+	color: black;
+	opacity: 1;
+	color: black;
+}
